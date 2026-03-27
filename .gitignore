@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+output/
+*.nc
+*.img
+*.hdr
+*.tif
+.DS_Store
+Thumbs.db
