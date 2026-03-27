@@ -107,7 +107,7 @@ python3 emit_convert.py <input.nc> <output_dir> [options]
 python3 emit_convert.py EMIT_L2A_RFL_001_20220903T163129.nc ./output --format both --ortho
 
 # Batch convert a folder
-for f in "Armenia Emit"/*.nc; do
+for f in "Emit folder"/*.nc; do
   python3 emit_convert.py "$f" ./output --format both --ortho
 done
 
